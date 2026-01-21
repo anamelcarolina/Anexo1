@@ -48,14 +48,7 @@ python --version
 
 --------------------------------------------------
 
-2) Clone o repositório
-
-git clone https://github.com/seu-usuario/extrair-anexo1.git
-cd extrair-anexo1
-
---------------------------------------------------
-
-3) Adicione os arquivos ZIP
+2) Adicione os arquivos ZIP
 
 Coloque todos os arquivos .zip dentro da pasta:
 
@@ -65,9 +58,9 @@ Não é necessário renomear os arquivos manualmente.
 
 --------------------------------------------------
 
-4) Execute o script
+3) Execute o script
 
-python extrair_anexo1.py
+python extrair_anexo2.py
 
 --------------------------------------------------
 
@@ -93,6 +86,7 @@ Se algum zip não contiver um Anexo1, o script apenas informa no terminal.
 
 ⚠️ Observações
 
+- O arquivo extrair_anexo1 foi a primeira versão
 - A busca por Anexo1 não diferencia letras maiúsculas e minúsculas
 - O script evita sobrescrever arquivos com o mesmo nome
 - Suporta múltiplos arquivos Anexo1 no mesmo zip
