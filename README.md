@@ -1,6 +1,6 @@
 # 📦 Extrator de Anexo1 de Arquivos ZIP (Python)
 
-Este projeto em Python automatiza a extração do Anexo1 de vários arquivos .zip, renomeando o arquivo extraído com o nome do zip de origem (sem .zip) e gerando um novo zip com esse mesmo nome.
+Este projeto em Python, para o meu estagio, automatiza a extração do Anexo1 de vários arquivos .zip, renomeando o arquivo extraído com o nome do zip de origem (sem .zip) e gerando um novo zip com esse mesmo nome.
 
 O objetivo é evitar trabalho manual ao lidar com muitos arquivos compactados.
 
