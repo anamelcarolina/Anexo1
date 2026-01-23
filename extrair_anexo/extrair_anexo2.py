@@ -27,7 +27,7 @@ for nome_zip in os.listdir(PASTA_ZIPS): #pega cada arquivo zip
             ]
 
             if not arquivos_anexo1:
-                print(f"⚠️ Anexo1 não encontrado em {nome_zip}")
+                print(f"!!!!!!! Anexo1 não encontrado em {nome_zip}")
                 continue
 
             for anexo1 in arquivos_anexo1:
@@ -69,7 +69,8 @@ for nome_zip in os.listdir(PASTA_ZIPS): #pega cada arquivo zip
                             arcname=os.path.basename(caminho_final)
                         )
 
-                print(f"✅ Anexo1 renomeado para '{nome_zip_sem_extensao}{extensao}' e zip criado")
+                print(f" Anexo1 renomeado para '{nome_zip_sem_extensao}{extensao}' e zip criado")
 
     except zipfile.BadZipFile:
         print(f"❌ Zip inválido: {nome_zip}")
+
